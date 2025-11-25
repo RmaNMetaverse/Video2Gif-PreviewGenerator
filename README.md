@@ -3,6 +3,7 @@
 
 
 ![application screenshot](/Screenshot.png)
+![application screenshot](/ExampleResult.gif)
 
 A lightweight, robust python desktop application that automatically scans folders for MP4 video files and generates optimized GIF previews. It intelligently stitches together random segments from the video to create a comprehensive "trailer-style" preview, similar to YouTube's hover previews.
 

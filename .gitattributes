@@ -1,0 +1,22 @@
+--- Git LFS (Large File Storage) ---
+
+These patterns will be handled by LFS instead of standard git storage.
+
+Video files (Input data)
+
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
+
+Image files (Generated GIFs or assets)
+
+*.gif filter=lfs diff=lfs merge=lfs -text
+
+Executables (If you decide to commit the built tool)
+
+*.exe filter=lfs diff=lfs merge=lfs -text
+
+Archives
+
+*.zip filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,39 @@
+--- Python ---
+
+pycache/
+*.py[cod]
+*$py.class
+
+--- Virtual Environments ---
+
+venv/
+env/
+.env
+.venv/
+
+--- Distribution / PyInstaller Artifacts ---
+
+build/
+dist/
+*.spec
+*.exe
+
+--- IDE Settings ---
+
+.vscode/
+.idea/
+*.swp
+
+--- Application Output (Optional) ---
+
+Ignore the generated GIF previews so they don't clutter the repo
+
+unless you specifically want to track them.
+
+*.gif
+
+--- Media Files (Optional) ---
+
+Uncomment the line below if you have local test videos you don't want to commit
+
+*.mp4
